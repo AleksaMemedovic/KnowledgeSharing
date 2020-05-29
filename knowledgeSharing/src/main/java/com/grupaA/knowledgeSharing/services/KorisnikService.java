@@ -23,4 +23,5 @@ public class KorisnikService implements IKorisnikService{
 		
 		return this.korisnikRepository.findAll();
 	}
+	
 }

@@ -22,7 +22,7 @@ class PodoblastController {
    
    
   // Aggregate root
-   @GetMapping("/jezici")
+   @GetMapping("/podoblasti")
    List<Podoblast> all() {
      return this.podoblastService.findAll();
    }
