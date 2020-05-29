@@ -1,9 +1,9 @@
 package com.grupaA.knowledgeSharing.exceptions;
 
 
-class KorisnikNotFoundException extends RuntimeException {
+public class KorisnikNotFoundException extends RuntimeException {
 
-  EmployeeNotFoundException(Long id) {
-    super("Could not find employee " + id);
+  public KorisnikNotFoundException(Long id) {
+    super("Could not find korisnik " + id);
   }
 }
